@@ -3,9 +3,7 @@
 # https://github.com/dmlc/web-data/tree/master/mxnet/ptb
 require(hash)
 require(mxnet)
-require(stringr
-
-    )
+require(stringr)
 
 load.data <- function(path, dic=NULL) {
     fi <- file(path, "r")
